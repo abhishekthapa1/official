@@ -1,0 +1,206 @@
+.section{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+
+#header{
+    background:rgb(255, 99, 72);
+   
+}
+#logo{
+    margin:0;
+    padding:0;
+}
+#menu{
+    list-style: none;
+    margin:0;
+    padding:0;
+
+    
+}
+#menu li{
+    display: inline-block;
+    font-size:1.1rem;
+}
+#menu .fixed a{
+    color:blue ;
+    
+}
+#menu  li a{
+    text-decoration:none ;
+    color:white;
+    display:block;
+    padding:25px 10px;
+   
+
+}
+#menu li a:hover{
+    background-color:burlywood;
+    border-radius:10px;
+    padding:10px 10px;
+}
+#banner{
+    background:url("../images/myimg.jpg") no-repeat 0 0;
+    background-size:cover;
+}
+#myinfo{
+    text-align:center;
+    
+}
+.name{
+    margin-top:5rem;
+    background:rgba(255,255,255,0.5);
+    padding:10px;
+    font-size:2.2rem;
+    border-radius:20px;
+}
+.country,.skill{
+    text-align:center;
+    background:rgba(255,255,255,0.5);
+    border-radius:20px;
+}
+.country{
+    font-size:1rem;
+}
+.skill{
+    font-size: 1.5rem;
+}
+#buttons{
+    padding:2rem 1rem;
+    display:flex;
+    justify-content: center;
+    overflow:auto;
+    
+}
+#buttons button{
+    border:1px solid whitesmoke;
+}
+#paragraph{
+    padding:1rem 3rem;
+    background:rgba(255,255,255,0.5);
+    border-radius:20px;
+}
+.aboutme i.fa{
+    font-size:70px;
+    color:black;
+
+}
+.section .headone{
+    text-align:center;
+    margin-bottom:0px;
+}
+.section .headone:after{
+    content:"";
+    width:50%;
+    height:2px;
+    background-color:#2c3e50;
+    display: block;
+    margin:40px auto;
+}
+.aboutme{
+    text-align:center ;
+    margin:20px auto;
+   
+}
+.aboutme i.fa{
+    color: rgb(255, 99, 72);
+}
+#testimonial{
+    color:#fff;
+    background:url('galaxy.jpg') no-repeat 0 0;
+    background-size: cover;
+    position:relative;
+    padding-top: 50px 0;
+}
+#testimonial:before{
+    background:rgba(44, 62, 80,0.8) ;
+    content:"";
+    position:absolute;
+    top:0;
+    width:100%;
+    height:100%;
+}
+
+.section img{
+    border-radius:50%;
+}
+.testione{
+    text-align:center;
+}
+#workme{
+    text-align :center;
+}
+.section .headtwo:after{
+    content:"";
+    width:30%;
+    height:2px;
+    background-color:#2c3e50;
+    display: block;
+    margin:40px auto;
+}
+.image h2{
+    text-align:center;
+    margin:25px auto;
+}
+.responsive{
+    
+    width: 100%;
+    height: auto;
+  }
+  #footer{
+    background-color:#576574;
+    color:#fff;
+    text-align:center;
+    
+}
+.footers h3:after,.footers3 h3:after{
+    
+    content:"";
+    width:70px;
+    height:2px;
+    background:#fff;
+    display:block;
+    margin:5px auto;
+}
+.footers i.fa{
+    font-size:30px;
+    margin:25px auto;
+    color:black;
+}
+.footers a,.footers3 a{
+    color:#fff;
+    text-decoration: none;
+}
+.footers a:hover{
+    font-size:20px;
+    color:burlywood;
+
+}
+.footers3 li{
+    margin:15px auto;
+    display:inline-block;
+    padding-right:5px;
+}
+.footers3 ul{
+    list-style-type: none;
+    
+}
+.footers3 .fa{
+    font-size:40px;
+    color:#000;
+}
+#footerlast{
+    background-color:#222f3e ;
+    color:#fff;
+}
+@media (max-width: 577px){
+   
+    .section{
+        padding-top:40px;
+        padding-bottom:40px;
+    }
+    .footers,.footers3{
+        font-size:18px;
+    }
+}
