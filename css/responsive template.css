@@ -190,5 +190,15 @@
     }
     .footers,.footers3{
         font-size:18px;
+        
     }
+}
+@media (max-width: 310px){
+    #menu{
+        font-size:0.9rem ;
+    }
+    #menu  li a{
+        padding:15px 5px;
+}
+
 }
