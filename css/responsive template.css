@@ -191,15 +191,34 @@
     }
     .footers,.footers3{
         font-size:18px;
-        
     }
 }
-@media (max-width: 310px){
+@media (max-width: 450px){
     #menu{
         font-size:0.9rem ;
     }
     #menu  li a{
-        padding:15px 5px;
-}
+        padding:15px 3px;
 
+}
+.logos{
+    width:50px;
+    height:50px;
+    margin:10px 0;
+}
+}
+@media (max-width: 255px){
+    #menu{
+        font-size:0.8rem ;
+    }
+    #menu  li a{
+        padding:10px 3px;
+
+}
+.logos{
+    width:50px;
+    height:50px;
+    margin:10px 0;
+    padding-right:10px;
+}
 }
