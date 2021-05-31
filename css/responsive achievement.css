@@ -195,6 +195,9 @@
     background-color:#222f3e ;
     color:#fff;
 }
+.footerlast{
+    font-size:13px;
+}
 @media (max-width: 450px){
     #menu{
         font-size:0.9rem ;
